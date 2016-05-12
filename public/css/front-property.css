@@ -1,0 +1,123 @@
+.property-search-form .input-group {
+    border-collapse: separate;
+    display: table;
+    position: relative;
+	width:100%;
+}
+.property-search-form .input-group input {
+    background-clip: padding-box;
+    background-color: #aba59b;
+    border: medium none;
+    border-radius: 8px 0 0 8px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 24px;
+    height: 60px;
+    max-width: 500px;
+    padding: 0 25px;
+	margin-right: -4px;
+	width: 64%;
+}
+.property-search-form .input-group-btn {
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%;
+}
+.property-search-form  .input-group .btn-search {
+    background-color: #f59f06;
+    border-radius: 0 8px 8px 0 !important;
+    color: #fff;
+    font-size: 25px;
+    height: 60px;
+    margin-left: 0;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    max-width: 270px;	
+	width: 27%;
+}
+.property-search-form  .btn-search:hover{
+	background-color: #f8cc86;
+	background-image:none;
+}
+.property-email-form .input-group{
+	margin-top: 10px;	
+}
+.property-email-form .input-group .lavel_class{
+    float: left;
+    width: 100px;			
+}
+.submit_property_email{
+    background: #f59f06 none repeat scroll 0 0;
+	color: #fff ;
+    font-size: 15px ;
+	padding: 7px 17px;	
+}
+.submit_property_email:hover{
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #f59f06;
+    color: #f59f06 
+}
+.print_message{
+    color: green;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.error_response{
+	text-align:center;
+	color:red;
+}
+.title_address{
+    color: #f59f06;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;	
+}
+.property_details td{
+	padding: 6px 10px;
+	background:#CCCCCC;
+}
+.property_details th {
+    background: #666666 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.seprated_line {
+    background-color: #ccc;
+    border: 0 none;
+    height: 1px;
+    margin: 24px 2px 1.71429rem;
+}
+.report_email_heading{
+    border-bottom: 2px solid #ccc;
+    color: #f59f06;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+    padding-bottom: 0;	
+}
+.submit_prop{
+    margin-top: 20px;
+    text-align: right;
+    width: 80.5%;
+}
+.clear{
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+ .col-small {width: 50%; float:left;}
+}
